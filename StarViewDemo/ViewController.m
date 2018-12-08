@@ -19,7 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    JLStarView *star = [[JLStarView alloc] initWithFrame:CGRectMake(50, 50, 130, 24)];
+    JLStarView *star = [[JLStarView alloc] initWithFrame:CGRectMake(50, 50, 250, 50)];
     star.delegate = self;
     star.starCount = 5;
     star.score = 3.5;
